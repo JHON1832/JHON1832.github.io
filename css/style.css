@@ -14,14 +14,14 @@
 
 /*ETIQUETAS*/
 body{
-background-image: url(../img/unad.png);
+background-image: url(../img/fondo2.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
 }
 
 h1{
 font-family: 'Shadows Into Light', cursive;
-color: white;
+color: blue;
 margin-left: 10px;
 font-size: 60px;
 text-align: center; 
