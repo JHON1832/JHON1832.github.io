@@ -14,13 +14,17 @@
 
 /*ETIQUETAS*/
 body{
-background-image: url(../img/fondo2.jpeg);
+background-image: url(../img/log.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
-}
 
+}
+header figure img{
+	height: 100px;
+	width: 400px;
+}
 h1{
-font-family: 'Shadows Into Light', Times New Roman;
+font-family: 'Shadows Into Light', cursive;
 color: blue;
 margin-left: 10px;
 font-size: 60px;
@@ -29,15 +33,16 @@ text-align: center;
 
 h2{
 font-family: 'Indie Flower', cursive;
-color: white;
+color: red;
 margin-left: 10px;
-font-size: 20px;
-text-align: left; 
+font-size: 40px;
+text-align: left;
+text-align: center; 
 }
 
 h3{
 font-family: 'Shadows Into Light', cursive;;
-color: white;
+color: purple;
 font-size: 30px;
 text-align: center; 
 }
@@ -47,13 +52,15 @@ header{
 	width: 1000px;
 	height: 120 px;
 	background: rgba(255, 255, 255, 10,70);
+	border:solid black;
 }
 
 nav{
 width: 1000px;
 height: 50px;
-background: red;
+background: blue;
 border-radius: 10px;
+border:solid black;
 
 }
 ul{
@@ -73,22 +80,28 @@ li{
 }
 
 section{
-	width: 700px;
+	width: 680px;
 	background: gray;
 	height: 600px;
 	float: left;
 	margin-top: 20px;
 	border-radius: 10px;
+	border:solid black;
+}
+section article figure img{
+	height: 200px;
+	width: 400px;
 }
 aside{
 
 	width: 280px;
-	background: white;
+	background: maroon;
 	height: 600px;
 	float: left;
 	margin-left: 20px;
 	margin-top: 20px;
 	border-radius: 10px;
+	border:solid black;
 }
 
 footer{
@@ -99,6 +112,8 @@ float: left;
 margin-top: 20px;
 border-radius: 10px;
 margin-bottom: 20px;
+text-align: center;
+border:solid black;
 }
 
 p{
@@ -118,7 +133,7 @@ p{
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
 
-.menu:link{color: white; text-decoration: none;}
+.menu:link{color: red; text-decoration: none;}
 .menu:visited{color: white; text-decoration: none;}
 .menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
 .menu:active{color: white; text-decoration: none;}
