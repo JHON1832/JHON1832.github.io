@@ -106,9 +106,13 @@ aside{
 	border:solid black;
 }
 
+aside figure img{
+	height:60px;
+	width: 240px;
+}
 header figure img{
-	height:50px;
-	width:70px;
+	height:80px;
+	width:400px;
 }
 
 footer{
