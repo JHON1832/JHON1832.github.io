@@ -104,6 +104,11 @@ aside{
 	border:solid black;
 }
 
+header figure img{
+	height:100px;
+	width:200px;
+}
+
 footer{
 width: 1000px;
 height: 70px;
