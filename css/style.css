@@ -15,6 +15,7 @@
 /*ETIQUETAS*/
 body{
 background-image: url(../img/log.jpeg);
+background-color: white;
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -25,7 +26,8 @@ header figure img{
 }
 h1{
 font-family: 'Shadows Into Light', cursive;
-color: blue;
+color: black;
+background-color:purple;
 margin-left: 10px;
 font-size: 60px;
 text-align: center; 
@@ -105,8 +107,8 @@ aside{
 }
 
 header figure img{
-	height:100px;
-	width:200px;
+	height:50px;
+	width:70px;
 }
 
 footer{
